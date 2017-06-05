@@ -23,4 +23,4 @@ if(n[i]==n[j])
 ss=1;}}}
     if(ss==0)
 System.out.println("no repeated numbers");
-}}}
+}}
