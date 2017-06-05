@@ -2,13 +2,13 @@ import java.io.*;
 import java.util.*;
 class unsort
 {
-public static void main(String arrgs[])
+public static void main(String args[])
 {
 int s=0;
 int a[]=new int[args.length];
 for(int i=0;i<args.length;i++)
 {
-a[i]=Integer.parseInt(args[]);
+a[i]=Integer.parseInt(args[i]);
 }
 for(int j=0;j<a.length;j++)
 {s=0;
