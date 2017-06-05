@@ -3,22 +3,24 @@ import java.util.*;
 class repeat
 {
 public static void main(String args[])
-{
+{int ss=0;
 Scanner s=new Scanner(System.in);
 int a=s.nextInt();
 int n[]=new int[a];
-int nn[]=new int[a];
+
 for(int i=0;i<a;i++)
 {
 n[i]=s.nextInt();
 }
-Arrays.sort(a);
-nn[sum++]=n[a-1];
-for(int i=a-2;i>=0;i--)
+
+for(int i=0;i<a;i++)
 {
-if(a[i]==a[i+1])
-nn[sum++]=a[i];}
-for(int k=0;k<sum;k++)
+  for(int j=i+1;j<a;j++)
+  {
+if(n[i]==n[j])
 {
-System.out.println(nn[k]);
+  System.out.println(n[i]);
+ss=1;}}}
+    if(ss==0)
+System.out.println("no repeated numbers");
 }}}
